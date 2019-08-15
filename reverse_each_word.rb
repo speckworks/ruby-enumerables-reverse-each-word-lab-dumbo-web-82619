@@ -6,6 +6,7 @@
 def reverse_each_word(sentence1)
    sentence1.split.each {|word| word.reverse}.join(" ")
  end
+ end
  
 #   a = [ "a", "b", "c", "d" ]
 # a.collect {|x| x + "!" }   #=> ["a!", "b!", "c!", "d!"]
