@@ -4,8 +4,7 @@
 #     expect(reverse_each_word(sentence1)).to eq("olleH ,ereht dna woh era ?uoy")
 
 def reverse_each_word(sentence1)
-  split_words = sentence1.split("").each
-  split_words.each do |x|x.reverse
+  sentence1.split("").each.reverse
   end
 end
 #   a = [ "a", "b", "c", "d" ]
