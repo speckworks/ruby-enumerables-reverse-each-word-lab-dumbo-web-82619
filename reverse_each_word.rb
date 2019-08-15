@@ -3,7 +3,7 @@
 #   it 'reverses all the words in a string without reversing the order of the words' do
 #     expect(reverse_each_word(sentence1)).to eq("olleH ,ereht dna woh era ?uoy")
 
-reverse_each_word(sentence1)
+def reverse_each_word(sentence1)
   sentence1 = "Hello there, and how are you?"
   sentence1.split("")
   sentence1.each do |sentence1|
